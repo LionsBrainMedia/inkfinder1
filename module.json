@@ -1,0 +1,110 @@
+{
+  "id": "inkfinder1",
+  "title": "Inkfinder",
+  "description": "Magical and alchemical tattoos for Pathfinder Second Edition of all levels.",
+  "url": "https://github.com/LionsBrainMedia/inkfinder1",
+  "version": "1.0",
+  "authors": [
+    {"name": "W. Brian Lane"}
+  ],
+  "compatibility": {
+    "minimum": "10.285",
+    "verified": "10.285"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "4.2.6"
+      }
+    }]
+  },
+  "flags": {
+  "inkfinder1": {
+    "pf2e-homebrew": {
+      "equipmentTraits": {
+        "curse": {
+          "label": "Curse",
+          "description": "This equipment transfers or bestows a curse."
+        },
+        "consumable": {
+          "label": "Consumable",
+          "description": "This tattoo is destroyed after activation."
+        },"twinned": {
+          "label": "Twinned",
+          "description": "A twinned tattoo only works if two tattoos are Crafted on two willing targets at the same time. The price in a twinned tattoo’s stat block reflects the price of both tattoos, and they require only a single Crafting check and the same amount of downtime as a single tattoo. These tattoos refer to the other tattoo wearer as a twinned partner. The frequency of activating a twinned tattoo might specify once per day per twinned partner (such that each partner activate their tattoo once per day) or once per day for the twinned pair (such that the pair tattoos can be activated only once per day). Twinned partners must always be willing for a twinned tattoo to be activated."
+        },
+        "prediction": {
+          "label": "Prediction",
+          "description": "This equipment grants you a prediction of the future."
+        },
+        "olfactory": {
+          "label": "Olfactory",
+          "description": "This equipment produces its effects via odors."
+        },
+        "linguistic": {
+          "label": "Linguistic",
+          "description": "This equipment's effects rely on sharing a language."
+        }
+      }}}},
+  "packs": [{
+      "label": "Inkfinder - Magical Tattoos",
+      "type": "Item",
+      "name": "inkfinder1-magical-tattoos",
+      "path": "./packs/inkfinder1-magical-tattoos.db",
+      "system": "pf2e",
+      "package": "inkfinder1",
+      "private": false
+    },
+  {
+      "label": "Inkfinder - Alchemical Tattoos",
+      "type": "Item",
+      "name": "inkfinder1-alchemical-tattoos",
+      "path": "./packs/inkfinder1-alchemical-tattoos.db",
+      "system": "pf2e",
+      "package": "inkfinder1",
+      "private": false
+    },
+    {
+      "label": "Inkfinder - Alchemist Options",
+      "type": "Item",
+      "name": "inkfinder1-alchemist-options",
+      "path": "./packs/inkfinder1-alchemist-options.db",
+      "system": "pf2e",
+      "package": "inkfinder1",
+      "private": false
+    },
+    {
+      "label": "Inkfinder - Alchemist Options",
+      "type": "Item",
+      "name": "inkfinder1-alchemist-options",
+      "path": "./packs/inkfinder1-alchemist-options.db",
+      "system": "pf2e",
+      "package": "inkfinder1",
+      "private": false
+    },
+    {
+      "label": "Inkfinder - Archetypes",
+      "type": "Item",
+      "name": "inkfinder1-archetypes",
+      "path": "./packs/inkfinder1-archetypes.db",
+      "system": "pf2e",
+      "package": "inkfinder1",
+      "private": false
+    },
+    {
+      "label": "Inkfinder - Tattoo Eater",
+      "type": "Actor",
+      "name": "inkfinder1-tattoo-eater",
+      "path": "./packs/inkfinder1-tattoo-eater.db",
+      "system": "pf2e",
+      "package": "inkfinder1",
+      "private": false
+    }
+  ],
+  "url": "https://github.com/LionsBrainMedia/inkfinder1",
+  "manifest": "https://raw.githubusercontent.com/LionsBrainMedia/inkfinder1/master/module.json",
+  "download": "https://github.com/LionsBrainMedia/inkfinder1/archive/refs/heads/main.zip"
+}
