@@ -77,15 +77,6 @@
       "private": false
     },
     {
-      "label": "Inkfinder - Alchemist Options",
-      "type": "Item",
-      "name": "inkfinder1-alchemist-options",
-      "path": "./packs/inkfinder1-alchemist-options.db",
-      "system": "pf2e",
-      "package": "inkfinder1",
-      "private": false
-    },
-    {
       "label": "Inkfinder - Archetypes",
       "type": "Item",
       "name": "inkfinder1-archetypes",
